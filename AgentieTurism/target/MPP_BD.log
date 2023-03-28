@@ -1,0 +1,687 @@
+20 Mar 2023 11:54:02,504 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 11:54:02,510 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 11:54:02,510 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 11:54:02,511 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 11:54:02,511 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 11:54:02,511 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 11:54:02,818 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6cb6decd)
+20 Mar 2023 11:54:02,834 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 11:54:02,834 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6cb6decd)
+20 Mar 2023 12:10:55,909 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:10:55,913 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:10:55,915 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:10:55,915 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:10:55,915 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:10:55,915 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:10:55,916 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:10:56,283 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6cb6decd)
+20 Mar 2023 12:10:56,289 TRACE org.example.repository.ExcursieRepository 68 save - Enter saving excursie Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON 
+20 Mar 2023 12:10:56,322 TRACE org.example.repository.ExcursieRepository 76 save - saved 1 instances 
+20 Mar 2023 12:10:56,322 TRACE org.example.repository.ExcursieRepository 81 save - Exit
+20 Mar 2023 12:10:56,323 TRACE org.example.repository.AgentieRepository 61 save - Enter saving agency Agentie: Christian Tour 
+20 Mar 2023 12:10:56,323 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:10:56,323 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:10:56,323 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:10:56,324 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:10:56,324 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:10:56,374 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@176b75f7)
+20 Mar 2023 12:10:56,378 TRACE org.example.repository.AgentieRepository 68 save - saved 1 instances 
+20 Mar 2023 12:10:56,379 TRACE org.example.repository.AgentieRepository 73 save - Exit
+20 Mar 2023 12:10:56,379 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:10:56,380 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@176b75f7)
+20 Mar 2023 12:10:56,391 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:10:56,392 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6cb6decd)
+20 Mar 2023 12:13:32,758 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:13:32,762 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:13:32,764 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:13:32,764 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:13:32,764 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:13:32,764 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:13:32,764 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:13:33,126 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3c01cfa1)
+20 Mar 2023 12:13:33,134 TRACE org.example.repository.ExcursieRepository 68 save - Enter saving excursie Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON 
+20 Mar 2023 12:13:33,158 TRACE org.example.repository.ExcursieRepository 76 save - saved 1 instances 
+20 Mar 2023 12:13:33,159 TRACE org.example.repository.ExcursieRepository 81 save - Exit
+20 Mar 2023 12:13:33,160 TRACE org.example.repository.AgentieRepository 61 save - Enter saving agency Agentie: Christian Tour 
+20 Mar 2023 12:13:33,160 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:13:33,160 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:13:33,160 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:13:33,161 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:13:33,161 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:13:33,207 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7fcf2fc1)
+20 Mar 2023 12:13:33,210 TRACE org.example.repository.AgentieRepository 68 save - saved 1 instances 
+20 Mar 2023 12:13:33,210 TRACE org.example.repository.AgentieRepository 73 save - Exit
+20 Mar 2023 12:13:33,211 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:13:33,211 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7fcf2fc1)
+20 Mar 2023 12:13:33,227 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:13:33,228 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3c01cfa1)
+20 Mar 2023 12:13:33,229 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:13:33,230 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7fcf2fc1)
+20 Mar 2023 12:13:33,240 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:13:33,240 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3c01cfa1)
+20 Mar 2023 12:14:40,857 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:14:40,860 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:14:40,862 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:14:40,862 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:14:40,862 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:14:40,862 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:14:40,862 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:14:41,248 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3c01cfa1)
+20 Mar 2023 12:14:41,259 TRACE org.example.repository.ExcursieRepository 68 save - Enter saving excursie Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON 
+20 Mar 2023 12:14:41,277 TRACE org.example.repository.ExcursieRepository 76 save - saved 1 instances 
+20 Mar 2023 12:14:41,277 TRACE org.example.repository.ExcursieRepository 81 save - Exit
+20 Mar 2023 12:14:41,278 TRACE org.example.repository.AgentieRepository 61 save - Enter saving agency Agentie: Christian Tour 
+20 Mar 2023 12:14:41,279 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:14:41,279 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:14:41,279 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:14:41,279 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:14:41,279 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:14:41,318 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7fcf2fc1)
+20 Mar 2023 12:14:41,322 TRACE org.example.repository.AgentieRepository 68 save - saved 1 instances 
+20 Mar 2023 12:14:41,322 TRACE org.example.repository.AgentieRepository 73 save - Exit
+20 Mar 2023 12:14:41,322 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:14:41,323 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7fcf2fc1)
+20 Mar 2023 12:14:41,328 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:14:41,328 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3c01cfa1)
+20 Mar 2023 12:14:41,337 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:14:41,338 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7fcf2fc1)
+20 Mar 2023 12:14:41,345 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:14:41,345 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3c01cfa1)
+20 Mar 2023 12:15:26,306 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:15:26,310 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:15:26,312 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:15:26,312 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:15:26,313 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:15:26,313 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:15:26,313 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:15:26,574 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3c01cfa1)
+20 Mar 2023 12:15:26,580 TRACE org.example.repository.ExcursieRepository 68 save - Enter saving excursie Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON 
+20 Mar 2023 12:15:26,592 TRACE org.example.repository.ExcursieRepository 76 save - saved 1 instances 
+20 Mar 2023 12:15:26,592 TRACE org.example.repository.ExcursieRepository 81 save - Exit
+20 Mar 2023 12:15:26,593 TRACE org.example.repository.AgentieRepository 61 save - Enter saving agency Agentie: Christian Tour 
+20 Mar 2023 12:15:26,593 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:15:26,593 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:15:26,593 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:15:26,593 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:15:26,594 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:15:26,629 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7fcf2fc1)
+20 Mar 2023 12:15:26,632 TRACE org.example.repository.AgentieRepository 68 save - saved 1 instances 
+20 Mar 2023 12:15:26,632 TRACE org.example.repository.AgentieRepository 73 save - Exit
+20 Mar 2023 12:15:26,633 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:15:26,633 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7fcf2fc1)
+20 Mar 2023 12:15:26,636 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:15:26,637 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3c01cfa1)
+20 Mar 2023 12:15:26,639 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:15:26,639 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7fcf2fc1)
+20 Mar 2023 12:15:26,649 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:15:26,649 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3c01cfa1)
+20 Mar 2023 12:20:11,295 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:20:11,299 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:20:11,301 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:11,301 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:20:11,302 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:20:11,302 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:20:11,302 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:20:11,646 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6aa61224)
+20 Mar 2023 12:20:11,656 TRACE org.example.repository.ExcursieRepository 68 save - Enter saving excursie Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON 
+20 Mar 2023 12:20:11,675 TRACE org.example.repository.ExcursieRepository 76 save - saved 1 instances 
+20 Mar 2023 12:20:11,676 TRACE org.example.repository.ExcursieRepository 81 save - Exit
+20 Mar 2023 12:20:11,677 TRACE org.example.repository.AgentieRepository 61 save - Enter saving agency Agentie: Christian Tour 
+20 Mar 2023 12:20:11,677 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:11,677 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:20:11,677 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:20:11,678 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:20:11,678 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:20:11,729 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+20 Mar 2023 12:20:11,734 TRACE org.example.repository.AgentieRepository 68 save - saved 1 instances 
+20 Mar 2023 12:20:11,735 TRACE org.example.repository.AgentieRepository 73 save - Exit
+20 Mar 2023 12:20:11,735 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:11,736 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+20 Mar 2023 12:20:11,742 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:11,742 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6aa61224)
+20 Mar 2023 12:20:11,745 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:11,746 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+20 Mar 2023 12:20:11,747 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:11,747 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6aa61224)
+20 Mar 2023 12:20:11,749 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:11,749 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+20 Mar 2023 12:20:11,758 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:11,758 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6aa61224)
+20 Mar 2023 12:20:49,157 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:20:49,161 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:20:49,163 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:49,163 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:20:49,164 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:20:49,164 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:20:49,164 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:20:49,406 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@27d5a580)
+20 Mar 2023 12:20:49,412 TRACE org.example.repository.ExcursieRepository 68 save - Enter saving excursie Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON 
+20 Mar 2023 12:20:49,424 TRACE org.example.repository.ExcursieRepository 76 save - saved 1 instances 
+20 Mar 2023 12:20:49,425 TRACE org.example.repository.ExcursieRepository 81 save - Exit
+20 Mar 2023 12:20:49,425 TRACE org.example.repository.AgentieRepository 61 save - Enter saving agency Agentie: Christian Tour 
+20 Mar 2023 12:20:49,425 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:49,426 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:20:49,426 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:20:49,426 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:20:49,426 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:20:49,462 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@53251a66)
+20 Mar 2023 12:20:49,464 TRACE org.example.repository.AgentieRepository 68 save - saved 1 instances 
+20 Mar 2023 12:20:49,465 TRACE org.example.repository.AgentieRepository 73 save - Exit
+20 Mar 2023 12:20:49,465 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:49,465 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@53251a66)
+20 Mar 2023 12:20:49,469 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:49,469 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@27d5a580)
+20 Mar 2023 12:20:49,472 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:49,472 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@53251a66)
+20 Mar 2023 12:20:49,479 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:20:49,480 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@27d5a580)
+20 Mar 2023 12:26:30,748 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:26:30,752 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:26:30,752 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:26:30,755 TRACE org.example.repository.RezervareRepository 62 save - Enter saving rezervare Rezervare pentru: Mircea Badelescu la numarul de telefon: 0771321654 pentru 2 bilete! 
+20 Mar 2023 12:26:30,756 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:30,756 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:26:30,756 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:26:30,756 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:26:30,756 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:26:31,036 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@5be49b60)
+20 Mar 2023 12:26:31,057 TRACE org.example.repository.RezervareRepository 69 save - saved 1 instances
+20 Mar 2023 12:26:31,058 TRACE org.example.repository.RezervareRepository 74 save - Exit
+20 Mar 2023 12:26:31,058 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:31,059 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@5be49b60)
+20 Mar 2023 12:26:31,066 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:31,066 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:26:31,066 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:26:31,066 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:26:31,067 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:26:31,112 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@50dfbc58)
+20 Mar 2023 12:26:31,122 TRACE org.example.repository.ExcursieRepository 68 save - Enter saving excursie Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON 
+20 Mar 2023 12:26:31,128 TRACE org.example.repository.ExcursieRepository 76 save - saved 1 instances 
+20 Mar 2023 12:26:31,128 TRACE org.example.repository.ExcursieRepository 81 save - Exit
+20 Mar 2023 12:26:31,129 TRACE org.example.repository.AgentieRepository 61 save - Enter saving agency Agentie: Christian Tour 
+20 Mar 2023 12:26:31,130 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:31,130 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:26:31,130 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:26:31,130 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:26:31,130 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:26:31,171 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@282cb7c7)
+20 Mar 2023 12:26:31,174 TRACE org.example.repository.AgentieRepository 68 save - saved 1 instances 
+20 Mar 2023 12:26:31,174 TRACE org.example.repository.AgentieRepository 73 save - Exit
+20 Mar 2023 12:26:31,174 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:31,175 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@282cb7c7)
+20 Mar 2023 12:26:31,176 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:31,177 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@50dfbc58)
+20 Mar 2023 12:26:31,179 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:31,179 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@282cb7c7)
+20 Mar 2023 12:26:31,188 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:31,188 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@50dfbc58)
+20 Mar 2023 12:26:31,191 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:31,191 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@5be49b60)
+20 Mar 2023 12:26:56,718 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:26:56,722 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:26:56,722 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 12:26:56,724 TRACE org.example.repository.RezervareRepository 62 save - Enter saving rezervare Rezervare pentru: Mircea Badelescu la numarul de telefon: 0771321654 pentru 2 bilete! 
+20 Mar 2023 12:26:56,724 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:56,725 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:26:56,725 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:26:56,725 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:26:56,725 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:26:57,013 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6aa61224)
+20 Mar 2023 12:26:57,024 TRACE org.example.repository.RezervareRepository 69 save - saved 1 instances
+20 Mar 2023 12:26:57,024 TRACE org.example.repository.RezervareRepository 74 save - Exit
+20 Mar 2023 12:26:57,024 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:57,024 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6aa61224)
+20 Mar 2023 12:26:57,026 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:57,027 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6aa61224)
+20 Mar 2023 12:26:57,027 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:57,028 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:26:57,028 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:26:57,028 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:26:57,028 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:26:57,082 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@13d4992d)
+20 Mar 2023 12:26:57,090 TRACE org.example.repository.ExcursieRepository 68 save - Enter saving excursie Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON 
+20 Mar 2023 12:26:57,095 TRACE org.example.repository.ExcursieRepository 76 save - saved 1 instances 
+20 Mar 2023 12:26:57,096 TRACE org.example.repository.ExcursieRepository 81 save - Exit
+20 Mar 2023 12:26:57,096 TRACE org.example.repository.AgentieRepository 61 save - Enter saving agency Agentie: Christian Tour 
+20 Mar 2023 12:26:57,097 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:57,097 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 12:26:57,097 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 12:26:57,097 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 12:26:57,098 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 12:26:57,147 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4f6f416f)
+20 Mar 2023 12:26:57,151 TRACE org.example.repository.AgentieRepository 68 save - saved 1 instances 
+20 Mar 2023 12:26:57,151 TRACE org.example.repository.AgentieRepository 73 save - Exit
+20 Mar 2023 12:26:57,152 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:57,152 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4f6f416f)
+20 Mar 2023 12:26:57,155 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:57,156 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@13d4992d)
+20 Mar 2023 12:26:57,159 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:57,159 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4f6f416f)
+20 Mar 2023 12:26:57,168 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:57,169 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@13d4992d)
+20 Mar 2023 12:26:57,173 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 12:26:57,173 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6aa61224)
+20 Mar 2023 18:30:29,278 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:30:29,283 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:30:29,285 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:30:29,289 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 18:30:29,289 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 18:30:29,290 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 18:30:29,290 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 18:30:29,291 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 18:30:29,709 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@f99f5e0)
+20 Mar 2023 18:30:29,738 TRACE org.example.repository.AgentieRepository 34 findOne - Exit with(Agentie: Christian Tour)
+20 Mar 2023 18:31:34,710 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:31:34,714 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:31:34,714 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:31:34,715 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 18:31:34,716 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 18:31:34,716 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 18:31:34,716 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 18:31:34,716 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 18:31:34,940 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1a72a540)
+20 Mar 2023 18:31:34,953 TRACE org.example.repository.AgentieRepository 59 findAll - Exit with([Agentie: Christian Tour, Agentie: Christian Tour, Agentie: Christian Tour, Agentie: Christian Tour, Agentie: Christian Tour, Agentie: Christian Tour, Agentie: Christian Tour, Agentie: Christian Tour, Agentie: PhiladelphiaTour])
+20 Mar 2023 18:41:02,176 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:41:02,182 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:41:02,184 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:41:02,186 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 18:41:02,187 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 18:41:02,187 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 18:41:02,187 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 18:41:02,188 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 18:41:02,746 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@16b2bb0c)
+20 Mar 2023 18:41:02,772 TRACE org.example.repository.RezervareRepository 61 findAll - Exit Am gasit: [Rezervare pentru: Miriam Badeleasca la numarul de telefon: 0772222222 pentru 1 bilete!]
+20 Mar 2023 18:41:30,876 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:41:30,879 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:41:30,880 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:41:30,881 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 18:41:30,881 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 18:41:30,881 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 18:41:30,881 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 18:41:30,881 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 18:41:31,180 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@327af41b)
+20 Mar 2023 18:41:31,212 TRACE org.example.repository.ExcursieRepository 64 findAll - Exit Found all [Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON, Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON, Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON, Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON, Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON, Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON, Excursie la Cetatea de Scaun pentru 25 persoane, cu plecare de la ora 11:15 cu firma: Normandia | 10.0 RON] 
+20 Mar 2023 18:49:42,508 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:49:42,512 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:49:42,513 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:49:42,515 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 18:49:42,515 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 18:49:42,516 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 18:49:42,516 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 18:49:42,516 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 18:49:42,812 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1a72a540)
+20 Mar 2023 18:49:42,837 TRACE org.example.repository.ExcursieRepository 44 findByLandmarkAndTimeInterval - Exit Returned [Excursie la Cetatea de Scaun pentru 25 persoane, cu plecare de la ora 11:15 cu firma: Normandia | 10.0 RON]
+20 Mar 2023 18:50:07,929 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:50:07,932 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:50:07,933 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 18:50:07,934 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 18:50:07,934 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 18:50:07,934 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 18:50:07,934 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 18:50:07,934 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 18:50:08,192 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@327af41b)
+20 Mar 2023 18:50:08,210 TRACE org.example.repository.ExcursieRepository 44 findByLandmarkAndTimeInterval - Exit Returned []
+20 Mar 2023 19:33:26,545 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 19:33:26,549 INFO  org.example.repository.ExcursieRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 19:33:26,550 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+20 Mar 2023 19:33:26,551 TRACE org.example.JdbcUtils 48 getConnection - Enter
+20 Mar 2023 19:33:26,552 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2023 19:33:26,552 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+20 Mar 2023 19:33:26,553 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+20 Mar 2023 19:33:26,553 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+20 Mar 2023 19:33:26,890 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7e19ebf0)
+20 Mar 2023 19:33:26,921 TRACE org.example.repository.ExcursieRepository 44 findByLandmarkAndTimeInterval - Exit Returned []
+26 Mar 2023 23:49:56,388 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+26 Mar 2023 23:49:56,392 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+26 Mar 2023 23:49:56,394 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+26 Mar 2023 23:50:07,145 TRACE org.example.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 23:50:07,145 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 23:50:07,146 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+26 Mar 2023 23:50:07,146 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+26 Mar 2023 23:50:07,146 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+26 Mar 2023 23:50:07,396 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@444eec7d)
+26 Mar 2023 23:50:07,434 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Cetatea de Scaun] 
+26 Mar 2023 23:52:44,758 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+26 Mar 2023 23:52:44,762 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+26 Mar 2023 23:52:44,762 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+26 Mar 2023 23:52:55,652 TRACE org.example.JdbcUtils 48 getConnection - Enter
+26 Mar 2023 23:52:55,652 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+26 Mar 2023 23:52:55,652 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+26 Mar 2023 23:52:55,652 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+26 Mar 2023 23:52:55,653 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+26 Mar 2023 23:52:55,839 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@b7f7c0d)
+26 Mar 2023 23:52:55,851 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Cetatea de Scaun] 
+27 Mar 2023 00:27:17,480 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:27:17,486 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:27:17,487 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:27:51,766 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:27:51,766 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:27:51,767 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:27:51,767 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:27:51,767 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:27:52,013 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7e740b68)
+27 Mar 2023 00:27:52,048 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Cetatea de Scaun] 
+27 Mar 2023 00:29:05,869 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:29:05,874 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:29:05,876 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:29:16,855 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:29:16,855 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:29:16,855 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:29:16,855 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:29:16,855 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:29:17,010 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63199871)
+27 Mar 2023 00:29:17,022 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Cetatea de Scaun] 
+27 Mar 2023 00:30:29,311 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:30:29,316 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:30:29,317 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:30:40,265 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:30:40,266 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:30:40,266 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:30:40,266 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:30:40,266 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:30:40,406 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7c3f980f)
+27 Mar 2023 00:30:40,419 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Cetatea de Scaun] 
+27 Mar 2023 00:31:00,514 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:31:00,516 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7c3f980f)
+27 Mar 2023 00:31:00,544 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON]
+27 Mar 2023 00:31:17,687 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:31:17,688 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7c3f980f)
+27 Mar 2023 00:31:17,689 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON]
+27 Mar 2023 00:32:27,039 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:32:27,045 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:32:27,047 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:32:38,063 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:32:38,063 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:32:38,063 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:32:38,063 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:32:38,064 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:32:38,270 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@323bad20)
+27 Mar 2023 00:32:38,295 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Cetatea de Scaun] 
+27 Mar 2023 00:33:08,442 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:33:08,443 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@323bad20)
+27 Mar 2023 00:33:08,466 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON]
+27 Mar 2023 00:34:09,413 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:34:09,418 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:34:09,419 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:34:20,261 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:34:20,261 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:34:20,262 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:34:20,262 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:34:20,262 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:34:20,423 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3feeec48)
+27 Mar 2023 00:34:20,436 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Cetatea de Scaun] 
+27 Mar 2023 00:34:37,251 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:34:37,251 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3feeec48)
+27 Mar 2023 00:34:37,268 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON]
+27 Mar 2023 00:36:13,984 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:36:13,988 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:36:13,989 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:36:25,367 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:36:25,367 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:36:25,368 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:36:25,368 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:36:25,368 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:36:25,675 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a645bf7)
+27 Mar 2023 00:36:25,703 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Cetatea de Scaun] 
+27 Mar 2023 00:36:43,376 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:36:43,379 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a645bf7)
+27 Mar 2023 00:36:43,409 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON]
+27 Mar 2023 00:38:26,071 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:38:26,072 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4a645bf7)
+27 Mar 2023 00:38:26,074 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON]
+27 Mar 2023 00:38:35,964 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:38:35,969 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:38:35,970 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:38:46,640 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:38:46,642 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:38:46,644 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:38:46,646 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:38:46,646 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:38:46,810 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@ed51e26)
+27 Mar 2023 00:38:46,831 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Eiffel Tower, Cetatea de Scaun, Eiffel Tower] 
+27 Mar 2023 00:39:05,334 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:39:05,334 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@ed51e26)
+27 Mar 2023 00:39:05,354 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la Eiffel Tower pentru 12 persoane, cu plecare de la ora 12:00 cu firma: Eurofratello | 23.5 RON]
+27 Mar 2023 00:40:49,293 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:40:49,296 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:40:49,297 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:40:59,923 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:40:59,923 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:40:59,924 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:40:59,924 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:40:59,924 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:41:00,103 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4fa1a882)
+27 Mar 2023 00:41:00,120 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnA, TurnB] 
+27 Mar 2023 00:42:04,096 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:42:04,101 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:42:04,102 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:42:14,937 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:42:14,937 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:42:14,937 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:42:14,938 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:42:14,938 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:42:15,093 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3feeec48)
+27 Mar 2023 00:42:15,106 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 00:42:41,941 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:42:41,942 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3feeec48)
+27 Mar 2023 00:42:41,959 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON]
+27 Mar 2023 00:43:36,177 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:43:36,177 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3feeec48)
+27 Mar 2023 00:43:36,181 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON]
+27 Mar 2023 00:45:57,775 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:45:57,781 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:45:57,783 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:46:08,729 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:46:08,730 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:46:08,730 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:46:08,730 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:46:08,731 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:46:09,050 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@75a2e99e)
+27 Mar 2023 00:46:09,071 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 00:46:44,484 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:46:44,484 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@75a2e99e)
+27 Mar 2023 00:48:29,656 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:48:29,661 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:48:29,662 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:48:41,086 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:48:41,086 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:48:41,087 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:48:41,087 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:48:41,087 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:48:41,398 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4fa1a882)
+27 Mar 2023 00:48:41,417 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 00:49:02,047 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:49:02,048 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4fa1a882)
+27 Mar 2023 00:49:02,071 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]
+27 Mar 2023 00:50:14,632 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:50:14,636 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:50:14,637 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:50:25,266 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:50:25,266 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:50:25,266 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:50:25,266 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:50:25,267 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:50:25,439 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@2823e65a)
+27 Mar 2023 00:50:25,459 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 00:50:50,467 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:50:50,468 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@2823e65a)
+27 Mar 2023 00:50:50,486 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnB pentru 25 persoane, cu plecare de la ora 15:00 cu firma: TestB | 23.0 RON]
+27 Mar 2023 00:52:51,266 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:52:51,270 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:52:51,272 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:53:01,891 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:53:01,891 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:53:01,892 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:53:01,892 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:53:01,892 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:53:02,086 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@10d45a94)
+27 Mar 2023 00:53:02,108 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 00:53:19,488 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:53:19,489 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@10d45a94)
+27 Mar 2023 00:53:19,510 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]
+27 Mar 2023 00:55:30,470 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:55:30,474 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:55:30,475 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 00:55:41,487 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:55:41,487 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 00:55:41,488 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 00:55:41,488 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 00:55:41,488 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 00:55:41,669 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@8431f81)
+27 Mar 2023 00:55:41,682 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 00:55:58,047 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 00:55:58,047 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@8431f81)
+27 Mar 2023 00:55:58,060 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]
+27 Mar 2023 14:28:14,583 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 14:28:14,588 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 14:28:14,589 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 14:28:34,535 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 14:28:34,536 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 14:28:34,536 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 14:28:34,536 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 14:28:34,536 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 14:28:34,762 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@aa30ecb)
+27 Mar 2023 14:28:34,801 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 14:28:51,054 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 14:28:51,055 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@aa30ecb)
+27 Mar 2023 14:28:51,078 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]
+27 Mar 2023 16:03:16,973 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:03:16,978 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:03:16,979 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:03:31,016 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 16:03:31,016 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 16:03:31,017 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 16:03:31,017 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 16:03:31,017 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 16:03:31,371 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1a4bd9)
+27 Mar 2023 16:03:31,416 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 16:03:55,616 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 16:03:55,617 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1a4bd9)
+27 Mar 2023 16:03:55,646 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]
+27 Mar 2023 16:04:32,041 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:04:32,048 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:04:32,050 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:04:49,559 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 16:04:49,560 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 16:04:49,560 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 16:04:49,561 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 16:04:49,561 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 16:04:49,909 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@16f87a52)
+27 Mar 2023 16:04:49,945 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 16:05:16,326 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 16:05:16,327 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@16f87a52)
+27 Mar 2023 16:05:16,355 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]
+27 Mar 2023 16:06:53,806 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:06:53,813 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:06:53,816 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:07:17,050 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 16:07:17,051 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 16:07:17,051 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 16:07:17,051 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 16:07:17,052 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 16:07:17,302 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1a1f1550)
+27 Mar 2023 16:07:17,350 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 16:07:44,571 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 16:07:44,572 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1a1f1550)
+27 Mar 2023 16:07:44,601 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]
+27 Mar 2023 16:28:19,316 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:28:19,321 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:28:19,323 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 16:28:39,070 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 16:28:39,074 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 16:28:39,076 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 16:28:39,076 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 16:28:39,077 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 16:28:39,403 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@5148a03f)
+27 Mar 2023 16:28:39,456 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 16:29:03,386 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 16:29:03,386 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@5148a03f)
+27 Mar 2023 16:29:03,429 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]
+27 Mar 2023 17:36:02,250 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 17:36:02,258 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 17:36:02,259 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 17:36:16,895 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 17:36:16,895 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 17:36:16,895 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 17:36:16,896 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 17:36:16,897 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 17:36:17,168 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@388c59dd)
+27 Mar 2023 17:36:17,208 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 17:36:38,118 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 17:36:38,118 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@388c59dd)
+27 Mar 2023 17:36:38,151 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]
+27 Mar 2023 17:36:55,678 TRACE org.example.repository.RezervareRepository 67 save - Enter saving rezervare Rezervare pentru: Mircea la numarul de telefon: 0722193193 pentru 2 bilete! 
+27 Mar 2023 17:36:55,679 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 17:36:55,679 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 17:36:55,679 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 17:36:55,679 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 17:36:55,679 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 17:36:55,866 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@293f7ea9)
+27 Mar 2023 17:36:55,888 TRACE org.example.repository.RezervareRepository 74 save - saved 1 instances
+27 Mar 2023 17:36:55,888 TRACE org.example.repository.RezervareRepository 79 save - Exit
+27 Mar 2023 18:29:06,351 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 18:29:06,356 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 18:29:06,357 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 18:29:24,292 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 18:29:24,292 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 18:29:24,292 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 18:29:24,293 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 18:29:24,293 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 18:29:24,506 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@76027f5a)
+27 Mar 2023 18:29:24,532 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 18:30:21,408 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 18:30:21,408 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@76027f5a)
+27 Mar 2023 18:30:21,436 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]
+27 Mar 2023 18:31:13,285 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 18:31:13,286 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@76027f5a)
+27 Mar 2023 18:31:13,299 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnB pentru 25 persoane, cu plecare de la ora 15:00 cu firma: TestB | 23.0 RON]
+27 Mar 2023 18:32:07,206 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 18:32:07,207 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@76027f5a)
+27 Mar 2023 18:32:07,211 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnB pentru 25 persoane, cu plecare de la ora 15:00 cu firma: TestB | 23.0 RON]
+27 Mar 2023 18:32:20,163 TRACE org.example.repository.RezervareRepository 67 save - Enter saving rezervare Rezervare pentru: Mircea Iva la numarul de telefon: 0744193193 pentru 5 bilete! 
+27 Mar 2023 18:32:20,164 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 18:32:20,164 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 18:32:20,165 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 18:32:20,165 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 18:32:20,166 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 18:32:20,212 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7b04b448)
+27 Mar 2023 18:32:20,231 TRACE org.example.repository.RezervareRepository 74 save - saved 1 instances
+27 Mar 2023 18:32:20,231 TRACE org.example.repository.RezervareRepository 79 save - Exit
+27 Mar 2023 18:33:36,745 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 18:33:36,746 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@76027f5a)
+27 Mar 2023 18:33:36,748 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnB pentru 25 persoane, cu plecare de la ora 15:00 cu firma: TestB | 23.0 RON]
+27 Mar 2023 18:47:55,459 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 18:47:55,463 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 18:47:55,465 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+27 Mar 2023 18:48:07,165 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 18:48:07,166 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 18:48:07,168 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+27 Mar 2023 18:48:07,168 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+27 Mar 2023 18:48:07,169 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+27 Mar 2023 18:48:07,356 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@418519)
+27 Mar 2023 18:48:07,371 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 18:48:07,385 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 18:48:07,385 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@418519)
+27 Mar 2023 18:48:07,392 TRACE org.example.repository.ExcursieRepository 89 findAll - Exit Found all [Excursie la TurnB pentru 25 persoane, cu plecare de la ora 15:00 cu firma: TestB | 23.0 RON, Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON] 
+27 Mar 2023 19:07:58,950 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 19:07:58,962 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@418519)
+27 Mar 2023 19:07:58,975 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+27 Mar 2023 19:07:58,976 TRACE org.example.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 19:07:58,976 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@418519)
+27 Mar 2023 19:07:58,979 TRACE org.example.repository.ExcursieRepository 89 findAll - Exit Found all [Excursie la TurnB pentru 25 persoane, cu plecare de la ora 15:00 cu firma: TestB | 23.0 RON, Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON] 
+28 Mar 2023 15:43:03,781 INFO  org.example.repository.ExcursieRepository 21 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+28 Mar 2023 15:43:03,785 INFO  org.example.repository.AgentieRepository 19 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+28 Mar 2023 15:43:03,786 INFO  org.example.repository.RezervareRepository 20 <init> - Initializing AgentieRepository with properties {userDB=postgres, urlDB=jdbc:postgresql://localhost:5432/mpp_agentii, passwordDB=postgres} 
+28 Mar 2023 15:43:29,307 TRACE org.example.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 15:43:29,307 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+28 Mar 2023 15:43:29,307 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/mpp_agentii
+28 Mar 2023 15:43:29,308 INFO  org.example.JdbcUtils 31 getNewConnection - user: postgres
+28 Mar 2023 15:43:29,308 INFO  org.example.JdbcUtils 32 getNewConnection - pass: postgres
+28 Mar 2023 15:43:29,549 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@64154802)
+28 Mar 2023 15:43:29,590 TRACE org.example.repository.ExcursieRepository 105 findAllLandmarks - Exit Found all [TurnB, TurnA, TurnA] 
+28 Mar 2023 15:43:29,617 TRACE org.example.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 15:43:29,617 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@64154802)
+28 Mar 2023 15:43:29,635 TRACE org.example.repository.ExcursieRepository 89 findAll - Exit Found all [Excursie la TurnB pentru 25 persoane, cu plecare de la ora 15:00 cu firma: TestB | 23.0 RON, Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON] 
+28 Mar 2023 15:43:51,552 TRACE org.example.JdbcUtils 48 getConnection - Enter
+28 Mar 2023 15:43:51,553 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.postgresql.jdbc.PgConnection@64154802)
+28 Mar 2023 15:43:51,575 TRACE org.example.repository.ExcursieRepository 45 findByLandmarkAndTimeInterval - Exit Returned [Excursie la TurnA pentru 23 persoane, cu plecare de la ora 15:00 cu firma: TestA | 25.0 RON, Excursie la TurnA pentru 21 persoane, cu plecare de la ora 15:00 cu firma: TestC | 20.0 RON]

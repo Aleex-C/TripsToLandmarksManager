@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXPasswordField?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="600.0" style="-fx-background-color: #F9F6EE;" stylesheets="@fields.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.LoginController">
+   <left>
+      <ImageView fitHeight="369.0" fitWidth="328.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@images/login_intro.png" />
+         </image>
+      </ImageView>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="134.0" style="-fx-background-color: #FAF9F6;" BorderPane.alignment="CENTER">
+         <children>
+            <MFXTextField id="customTxt" floatMode="BORDER" floatingText="user" layoutX="67.0" layoutY="70.0" prefHeight="38.0" prefWidth="142.0" />
+            <MFXPasswordField id="customPswd" floatMode="BORDER" floatingText="password" layoutX="67.0" layoutY="128.0" prefHeight="38.0" prefWidth="141.0" />
+            <MFXButton fx:id="loginButton" layoutX="103.0" layoutY="185.0" onMouseClicked="#onLoginButtonClick" rippleColor="#bdbdbd" style="-fx-background-color: #FAF9F6;" text="L O G I N">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </MFXButton>
+            <MFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" ellipsisString="" layoutX="232.0" onMouseClicked="#onClick" style="-fx-background-color: #FAF9F6;" textOverrun="CLIP" fx:id="xBtn">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/red.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </MFXButton>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
