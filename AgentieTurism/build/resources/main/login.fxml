@@ -20,8 +20,8 @@
    <center>
       <AnchorPane prefHeight="400.0" prefWidth="134.0" style="-fx-background-color: #FAF9F6;" BorderPane.alignment="CENTER">
          <children>
-            <MFXTextField id="customTxt" floatMode="BORDER" floatingText="user" layoutX="67.0" layoutY="70.0" prefHeight="38.0" prefWidth="142.0" />
-            <MFXPasswordField id="customPswd" floatMode="BORDER" floatingText="password" layoutX="67.0" layoutY="128.0" prefHeight="38.0" prefWidth="141.0" />
+            <MFXTextField fx:id="usernameField" id="customTxt" floatMode="BORDER" floatingText="user" layoutX="67.0" layoutY="70.0" prefHeight="38.0" prefWidth="142.0" />
+            <MFXPasswordField fx:id="passwordField" id="customPswd" floatMode="BORDER" floatingText="password" layoutX="67.0" layoutY="128.0" prefHeight="38.0" prefWidth="141.0" />
             <MFXButton fx:id="loginButton" layoutX="103.0" layoutY="185.0" onMouseClicked="#onLoginButtonClick" rippleColor="#bdbdbd" style="-fx-background-color: #FAF9F6;" text="L O G I N">
                <font>
                   <Font name="Times New Roman" size="12.0" />

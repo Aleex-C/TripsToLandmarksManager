@@ -1,0 +1,26 @@
+* {
+    -common-gradient: linear-gradient(to right bottom, #c4008b, #d00085, #dc007f, #e60b79, #ef1872, #f5276b, #fa3564, #fe415e, #ff5158, #ff5f52, #ff6c4e, #ff794b);
+}
+
+#customTxt{
+    -fx-border-color: -common-gradient;
+    -fx-background-color: #FAF9F6
+}
+#customTxt:focus-within{
+    -fx-border-color: -common-gradient;
+}
+#customTxt:floating .floating-text{
+    -fx-background-color: #FAF9F6;
+    -fx-text-fill: black;
+}
+#customPswd{
+    -fx-border-color: -common-gradient;
+    -fx-background-color: #FAF9F6
+}
+#customPswd:focus-within{
+    -fx-border-color: -common-gradient;
+}
+#customPswd:floating .floating-text{
+    -fx-background-color: #FAF9F6;
+    -fx-text-fill: black;
+}

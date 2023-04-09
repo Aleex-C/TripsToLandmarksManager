@@ -9,6 +9,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AgentieClient" />
+            <option value="$PROJECT_DIR$/AgentieModel" />
+            <option value="$PROJECT_DIR$/AgentieNetworking" />
+            <option value="$PROJECT_DIR$/AgentiePersistance" />
+            <option value="$PROJECT_DIR$/AgentieServer" />
+            <option value="$PROJECT_DIR$/AgentieServices" />
+            <option value="$PROJECT_DIR$/ChatClient" />
           </set>
         </option>
       </GradleProjectSettings>

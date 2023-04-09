@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project (':AgentieModel')
+    implementation project (':AgentieServices')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
+    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+}
+
+test {
+    useJUnitPlatform()
+}

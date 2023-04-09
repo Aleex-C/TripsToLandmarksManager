@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project (':AgentieModel')
+    implementation project (':AgentieServices')
+    implementation project (':AgentiePersistance')
+    implementation project (':AgentieNetworking')
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+
+}
+application{
+    mainClass='org.example.StartRpcServer'
+}
+
+test {
+    useJUnitPlatform()
+}

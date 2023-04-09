@@ -1,2 +1,9 @@
 rootProject.name = 'AgentieTurism'
+include 'ChatClient'
+include 'AgentieClient'
+include 'AgentieModel'
+include 'AgentieNetworking'
+include 'AgentiePersistance'
+include 'AgentieServer'
+include 'AgentieServices'
 
